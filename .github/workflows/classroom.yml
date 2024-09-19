@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Test 1
-        setup-command: javac ./src/RomanRunner.java
-        command: java ./src/RomanRunner
+        setup-command: javac ./src/RomansRunner.java
+        command: java ./src/RomansRunner
         input: ''
         expected-output: |-
           5
